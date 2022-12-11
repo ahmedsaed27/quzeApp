@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Qize App</title>
-        <link rel="stylesheet" href="{{url('css/app.css')}}">
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
     </head>
     <body>
         <div class="container">
@@ -13,7 +13,7 @@
                 Giza Governorate <br>
                 New Vision National Schools
             </div>
-            <img src="{{url('imges/15895052_1872836472935060_4858813208271932985_n.jpg')}}" alt="">
+            <img src="{{asset('imges/15895052_1872836472935060_4858813208271932985_n.jpg')}}" alt="">
         </div>
         <div class="quiz-app">
             <div class="quiz-info">
@@ -31,7 +31,7 @@
 
                     </div>
                     <div class="countdown">
-                        
+
                     </div>
                 </div>
                 <div class="results" id="results">
@@ -39,6 +39,6 @@
             </div>
         </div>
         <script src="https://kit.fontawesome.com/71032f77ee.js" crossorigin="anonymous"></script>
-        <script src="{{url('js/app.js')}}"></script>
+        <script src="{{asset('js/app.js')}}"></script>
     </body>
 </html>
